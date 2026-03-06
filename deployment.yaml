@@ -13,8 +13,8 @@ spec:
         app: hello
     spec:
       containers:
-        - name: hello-container
-          image: sujithss290/hello-nginx:latest
-          imagePullPolicy: Always
-          ports:
-            - containerPort: 80
+      - name: hello-container
+        image: sujithss290/hello-nginx:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
