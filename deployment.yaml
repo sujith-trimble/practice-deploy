@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-container
-        image: sujithss290/hello-nginx:latest
+        image: sujithss290/hello-nginx:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
